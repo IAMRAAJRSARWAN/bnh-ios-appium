@@ -54,9 +54,11 @@ export const config = {
         // capabilities for local Appium web tests on iOS
         "platformName": "iOS",
         "appium:automationName": "XCUITest",
-        "appium:deviceName": "iPhone 15 Pro Max",
-        "appium:udid": "41AFF073-479E-4471-912B-B2088E6E064E",
-        'appium:fullReset': true,
+        "appium:deviceName": "iPhone 15 Pro",
+        "appium:udid": "A4C6971F-4468-438A-AECC-1B1A350F1E05",
+        "appium:app": "/Users/krishnamoorthi_k/Library/Developer/Xcode/DerivedData/bhphoto-afvrnnsxtrrxcoepxxmgubrmoroa/Build/Products/Debug-Prod-iphonesimulator/bhphoto.app",
+        "appium:fullReset": true,
+        "appium:autoAcceptAlerts": true
     }],
 
     //
